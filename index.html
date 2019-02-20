@@ -7,7 +7,6 @@
     <title>Tsunki Tsunki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./SRC/CSS/mainStyle.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./SRC/CSS/spark.scss">
     <link rel="icon" type="image/x-icon" href="faviconico.ico" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,800|Staatliches" rel="stylesheet">
@@ -17,11 +16,11 @@
 
 <body id="body-setting">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+        <button onclick="switchLogo()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span  class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -36,7 +35,7 @@
     </nav>
 
     <div id="hero-logo-container">
-        <img src="./SRC/images/logo/tsunki-1.png">
+        <img src="./SRC/images/logo/Logo-white.png">
     </div>
 
     <div class="carousel slide carousel-fade" data-ride="carousel">
@@ -104,8 +103,6 @@
 
 
 <script src="./SRC/JavaScript/mainJs.js "></script>
-
-<script src="./SRC/JavaScript/spark.js "></script>
 
 
 </html>

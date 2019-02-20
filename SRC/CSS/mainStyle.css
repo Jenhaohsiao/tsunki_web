@@ -4,6 +4,10 @@
     /* font-family: 'Merriweather Sans', sans-serif; */
 }
 
+#main-navbar {
+    z-index: 10;
+}
+
 #hero-image-section {
     width: 100%;
     max-height: 500px;
