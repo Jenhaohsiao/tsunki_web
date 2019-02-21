@@ -20,11 +20,11 @@
         background-position: 50% 75%;
         background-repeat: no-repeat;
         background-size: cover;
-        -webkit-animation-name: MOVE-BG;
+        /* -webkit-animation-name: MOVE-BG;
         -webkit-animation-duration: 10s;
         -webkit-animation-timing-function: linear;
         -webkit-animation-iteration-count: infinite;
-        animation-fill-mode: forwards;
+        animation-fill-mode: forwards; */
     }
     
     #hero-image-1 {
@@ -90,7 +90,7 @@
         -webkit-animation-duration: 5s;
         -webkit-animation-timing-function: linear;
         -webkit-animation-iteration-count: infinite;
-        animation-fill-mode: forwards;
+        /* animation-fill-mode: forwards; */
     }
     
     #who-we-are-bg {
