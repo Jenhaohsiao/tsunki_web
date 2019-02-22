@@ -10,29 +10,13 @@
     <link rel="icon" type="image/x-icon" href="faviconico.ico" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,800|Staatliches" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body id="body-setting">
 
-    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Tsunki</a>
-        <button onclick="switchLogo()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span  class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" onclick="scrollToPoint('whoWeAre')"><span >Who are we</span> </a>
-                <a class="nav-item nav-link" onclick="scrollToPoint('whatWeDo')">What we do</a>
-                <a class="nav-item nav-link" onclick="scrollToPoint('whyUs')">Why us</a>
-                <a class="nav-item nav-link" onclick="scrollToPoint('howItWorks')">How it works</a>
-                <a class="nav-item nav-link" onclick="scrollToPoint('ourCases')">Our Cases</a>
-
-            </div>
-        </div>
-    </nav>
 
     <div id="hero-logo-container">
         <img src="./SRC/images/logo/Logo-white.png">
@@ -55,6 +39,24 @@
         </div>
     </div>
 
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tsunki</a>
+        <button onclick="switchLogo()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span  class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" onclick="scrollToPoint('whoWeAre')"><span >Who are we</span> </a>
+                <a class="nav-item nav-link" onclick="scrollToPoint('whatWeDo')">What we do</a>
+                <a class="nav-item nav-link" onclick="scrollToPoint('whyUs')">Why us</a>
+                <a class="nav-item nav-link" onclick="scrollToPoint('ourCases')">Our Cases</a>
+                <a class="nav-item nav-link" onclick="scrollToPoint('contactUs')">Contact Us</a>
+
+            </div>
+        </div>
+    </nav>
+
 
     <!-- Who are we -->
     <div id="who-we-are-bg">
@@ -67,18 +69,19 @@
                     <img class="person-img" src="./SRC/images/person/athena.jpg" alt="Athena">
                 </div>
                 <div class="col-12 col-sm-8 person-text">
-                    <h2>Athena</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero recusandae unde? Dolorem atque velit, repellat sit dolorum, tempora tenetur accusamus cum porro dolores optio rem possimus aspernatur mollitia assumenda.</p>
-
+                    <h2>Everyone is special to us</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero recusandae unde? Dolorem atque velit, repellat sit dolorum, tempora tenetur accusamus cum porro dolores optio rem possimus aspernatur mollitia assumenda."</p>
+                    <i class="person-name">-Athena, Tsunki Co Inc</i>
                 </div>
                 <div class=" col-sm-1"></div>
             </div>
 
-            <div class="row">
+            <div class="row" style="margin-top: 50px;">
                 <div class=" col-sm-1"></div>
                 <div class="col-12 col-sm-8 person-text">
-                    <h2 style="text-align: right;">Meya</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero recusandae unde? Dolorem atque velit, repellat sit dolorum, tempora tenetur accusamus cum porro dolores optio rem possimus aspernatur mollitia assumenda.</p>
+                    <h2>We make your memory more colourful</h2>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero recusandae unde? Dolorem atque velit, repellat sit dolorum, tempora tenetur accusamus cum porro dolores optio rem possimus aspernatur mollitia assumenda."</p>
+                    <i class="person-name">-Meya Hsu, Tsunki Co Inc</i>
 
                 </div>
                 <div class="col-12 col-sm-3">
@@ -96,24 +99,23 @@
 
         <div class="row">
 
-
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <h3>Subtitle</h3>
                 <img class="sub-title-image" src="./SRC/images/sub-image-1.jpg" alt="Meya">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit? Quos obcaecati incidunt odio impedit, vero reiciendis omnis, suscipit nostrum accusamus consectetur quis, culpa facilis animi?</p>
             </div>
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <h3>Subtitle</h3>
                 <img class="sub-title-image" src="./SRC/images/sub-image-2.jpg" alt="Meya">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit? Quos obcaecati incidunt odio impedit, vero reiciendis omnis, suscipit nostrum accusamus consectetur quis, culpa facilis animi?</p>
             </div>
 
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <h3>Subtitle</h3>
                 <img class="sub-title-image" src="./SRC/images/sub-image-3.jpg" alt="Meya">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit? Quos obcaecati incidunt odio impedit, vero reiciendis omnis, suscipit nostrum accusamus consectetur quis, culpa facilis animi?</p>
             </div>
-            <div class="col-12 col-sm-6 col-md-3">
+            <div class="col-12 col-md-6 col-lg-3">
                 <h3>Subtitle</h3>
                 <img class="sub-title-image" src="./SRC/images/sub-image-4.jpg" alt="Meya">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit? Quos obcaecati incidunt odio impedit, vero reiciendis omnis, suscipit nostrum accusamus consectetur quis, culpa facilis animi?</p>
@@ -130,18 +132,65 @@
     <!-- why Us -->
     <div class="container section">
         <h1 id="whyUs">Why Us</h1>
+        <div class=" section-small">
 
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <div class="why-us-icon">
+                        <i class="fas fa-hand-holding-usd icon-1"></i>
+                    </div>
+                    <div class="why-us-subtitle">
+                        <h3>Budget Control</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit?</p>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="why-us-icon">
+                        <i class="far fa-calendar-alt icon-2"></i>
+                    </div>
+                    <div class="why-us-subtitle">
+                        <h3>On Schedule</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit?</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <div class="why-us-icon">
+                        <i class="far fa-lightbulb icon-3"></i>
+                    </div>
+                    <div class="why-us-subtitle">
+                        <h3>Ideas and more</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit?</p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6">
+                    <div class="why-us-icon">
+                        <i class="far fa-smile-wink icon-4"></i>
+                    </div>
+
+                    <div class="why-us-subtitle">
+                        <h3>Happy dreams come true</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam reiciendis aspernatur ut fugit?</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- whyUs end-->
 
-    <!-- how It Works -->
-    <div class="container section">
-        <h1 id="howItWorks">How It Works</h1>
 
-    </div>
-
-    <!-- how It Works end-->
 
     <!-- our Cases -->
     <div class="container section">
@@ -152,6 +201,14 @@
     <!-- our Cases end-->
 
     <!-- Footer -->
+
+    <!-- how It Works -->
+    <div class="container section">
+        <h1 id="contactUs">Contact Us</h1>
+
+    </div>
+
+    <!-- how It Works end-->
 
     <div id="main-footer">
 

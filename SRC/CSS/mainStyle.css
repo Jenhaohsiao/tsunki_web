@@ -1,7 +1,12 @@
     #body-setting {
-        /* font-family: 'Nunito', sans-serif;*/
-        font-family: 'Staatliches', cursive;
+        font-family: 'Nunito', sans-serif;
+        /* font-family: 'Staatliches', cursive; */
         /* font-family: 'Merriweather Sans', sans-serif; */
+    }
+    
+    #body-setting h1,
+    #body-setting h2 {
+        font-family: 'Staatliches', cursive;
     }
     
     #main-navbar {
@@ -74,13 +79,13 @@
     }
     
     #hero-logo-container img {
-        width: 30%;
+        width: 25%;
         min-width: 300px;
         height: auto;
         position: absolute;
         display: block;
         margin: auto;
-        top: 20%;
+        top: 100px;
         left: 0;
         right: 0;
         z-index: 2;
@@ -104,12 +109,17 @@
         opacity: 1;
     }
     
-    .section {
-        margin: 100px 0;
+    .section-small {
+        max-width: 800px;
+        margin: 0 auto;
     }
     
     .section h1 {
         padding: 0 0 50px 0;
+    }
+    
+    .section {
+        margin: 100px 0;
     }
     
     .person-img {
@@ -119,8 +129,48 @@
         margin: 0px 50px 20px 0;
     }
     
+    .why-us-icon {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: 5px solid #df8383;
+        margin: 30px auto;
+    }
+    
+    .why-us-icon i {
+        font-size: 80px;
+        color: #df8383;
+    }
+    
+    .why-us-icon i.icon-1 {
+        margin: 20%;
+    }
+    
+    .why-us-icon i.icon-2 {
+        margin: 25%;
+    }
+    
+    .why-us-icon i.icon-3 {
+        margin: 20% 30%;
+    }
+    
+    .why-us-icon i.icon-4 {
+        margin: 22%;
+    }
+    
+    .why-us-subtitle {
+        color: #df8383;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
     .person-text {
         margin-bottom: 35px;
+    }
+    
+    .person-name {
+        color: rgb(59, 59, 136);
+        font-size: 20px;
     }
     
     .sub-title-image {
