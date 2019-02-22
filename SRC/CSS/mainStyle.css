@@ -122,11 +122,16 @@
         margin: 100px 0;
     }
     
+    .person-img-section {
+        margin: 20px auto;
+        width: 120px;
+        height: 120px;
+    }
+    
     .person-img {
         border-radius: 50%;
-        width: 130px;
-        height: auto;
-        margin: 0px 50px 20px 0;
+        width: 120px;
+        height: 120px;
     }
     
     .why-us-icon {
