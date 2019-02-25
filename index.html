@@ -42,12 +42,12 @@
     <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Tsunki</a>
         <button onclick="switchLogo()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span  class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" onclick="scrollToPoint('whoWeAre')"><span >Who are we</span> </a>
+                <a class="nav-item nav-link" onclick="scrollToPoint('whoWeAre')"><span>Who are we</span> </a>
                 <a class="nav-item nav-link" onclick="scrollToPoint('whatWeDo')">What we do</a>
                 <a class="nav-item nav-link" onclick="scrollToPoint('whyUs')">Why us</a>
                 <a class="nav-item nav-link" onclick="scrollToPoint('ourCases')">Our Cases</a>
@@ -207,16 +207,63 @@
 
     <!-- our Cases end-->
 
-    <!-- Footer -->
 
-    <!-- how It Works -->
-    <div class="container section">
-        <h1 id="contactUs">Contact Us</h1>
 
+    <!-- Contact Us-->
+    <div id="contactUs" class="container section">
+        <h1>Contact Us</h1>
+
+        <div id="contact-us-section">
+            <div class="row">
+                <div class="col-12 col-md-5 contact-us-section">
+                    <div id="contact-address-section" class="contact-us-section-inside">
+                        <h3>How can we help you?</h3>
+
+                        <ul>
+                            <li id="contact-icon-address"> 1000 Richmond Street East, Toronto, ON, M5A1R2</li>
+
+                            <li id="contact-icon-phone"> 416-862-9999</li>
+
+
+                            <li id="contact-icon-email">hello@tsunki.com</li>
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-12 col-md-7 contact-us-section">
+                    <form id="contact-us-form" class="contact-us-section-inside">
+
+                        <h3>Or, you can send message to us</h3>
+                        <div>
+                            <input type="text" id="contact-us-name" name="name" placeholder="Your name..">
+                        </div>
+                        <div>
+                            <input type="text" id="contact-us-email" name="email" placeholder="Your email..">
+                        </div>
+                        <div>
+                            <input type="text" id="contact-us-phone" name="phone" placeholder="Your phone number..">
+                        </div>
+
+                        <div>
+                            <textarea name="contact-us-subject" placeholder="Tell me more..."></textarea>
+                        </div>
+                        <div style="text-align: center">
+                            <button class="btn btn-info" type="submit" value="Submit">Submit</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- how It Works end-->
+    <!-- Contact Us end-->
 
+    <!-- Footer -->
     <div id="main-footer">
 
     </div>
