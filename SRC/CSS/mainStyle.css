@@ -13,6 +13,16 @@
         z-index: 10;
     }
     
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .sticky+.content {
+        padding-top: 60px;
+    }
+    
     #hero-image-section {
         width: 100%;
         max-height: 500px;
@@ -72,7 +82,10 @@
         }
     }
     
-    #hero-logo {}
+    #cases-main-section div {
+        height: 300px;
+        /* width: auto; */
+    }
     
     #spark {
         z-index: 1;
@@ -136,14 +149,14 @@
     
     .why-us-icon {
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         border: 5px solid #df8383;
         margin: 30px auto;
     }
     
     .why-us-icon i {
-        font-size: 80px;
+        font-size: 55px;
         color: #df8383;
     }
     
@@ -198,13 +211,16 @@
     
     .contact-us-section {
         color: #FFFFFF;
+        height: 100%;
         /* -webkit-text-stroke: 2px black; */
     }
     
     .contact-us-section-inside {
         background-color: rgba(150, 150, 150, 0.644);
         padding: 30px;
+        height: 100%;
         margin: 20px;
+        border-radius: 10px;
     }
     
     #contact-us-form input,
@@ -212,7 +228,7 @@
         width: 100%;
         margin: 15px 0;
         padding: 12px;
-        border: 1px solid #df8383;
+        border: 1px solid #17a2b8;
         border-radius: 5px;
         resize: vertical;
         box-sizing: border-box;
@@ -223,8 +239,12 @@
         background-color: rgb(92, 92, 92)
     }
     
+    #contact-address-section {}
+    
     #contact-address-section ul li {
         padding: 10px 0;
+        color: #000000;
+        font-size: 18px;
     }
     
     #contact-address-section ul #contact-icon-address {
