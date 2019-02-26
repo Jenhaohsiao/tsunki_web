@@ -3,17 +3,22 @@ function switchLogo() {
 }
 
 
+var navbar = document.getElementById("main-navbar");
+var sticky = navbar.offsetTop;
+
 
 function scrollToPoint(_elementID) {
-    console.log("scrollTo:", _elementID);
+    navbar.classList.add("sticky");
 
-    var elementPoint = document.getElementById(_elementID);
+    var elementPoint = document.getElementById(_elementID).offsetTop - 100;
     console.log("elementPoint:", elementPoint);
-    elementPoint.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "center"
-    });
+    // elementPoint.scrollIntoView({
+    //     behavior: "smooth",
+    //     block: "start",
+    //     inline: "center"
+    // });
+
+    window.scroll({ top: elementPoint, behavior: "smooth" });
 }
 
 // Sticky Navigation
@@ -21,8 +26,7 @@ window.onscroll = function() {
     setNavbarSticky()
 };
 
-var navbar = document.getElementById("main-navbar");
-var sticky = navbar.offsetTop;
+
 
 function setNavbarSticky() {
 
