@@ -22,7 +22,7 @@
         <img src="./SRC/images/logo/Logo-white.png">
     </div>
 
-    <div class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="pageTop" class="carousel slide carousel-fade" data-ride="carousel">
         <div id="hero-image-section" class="carousel-inner">
             <div class="carousel-item active">
                 <div id="hero-image-1" class="d-block w-100" alt="..."></div>
@@ -41,14 +41,14 @@
     <div id="main-navbar">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
-            <a class="navbar-brand" href="#">Tsunki</a>
-            <button onclick="switchLogo()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" onclick="scrollToPoint('pageTop')">Tsunki</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" harf onclick="scrollToPoint('ourCases')">Our Cases</a>
+                    <a class="nav-item nav-link" onclick="scrollToPoint('ourCases')">Our Cases</a>
                     <a class="nav-item nav-link" onclick="scrollToPoint('whoWeAre')"><span>Who are we</span> </a>
                     <a class="nav-item nav-link" onclick="scrollToPoint('whatWeDo')">What we do</a>
                     <a class="nav-item nav-link" onclick="scrollToPoint('whyUs')">Why us</a>

@@ -8,7 +8,11 @@ var sticky = navbar.offsetTop;
 
 
 function scrollToPoint(_elementID) {
-    navbar.classList.add("sticky");
+
+    if (_elementID !== "pageTop") {
+
+        navbar.classList.add("sticky");
+    }
 
     var elementPoint = document.getElementById(_elementID).offsetTop - 100;
     console.log("elementPoint:", elementPoint);
