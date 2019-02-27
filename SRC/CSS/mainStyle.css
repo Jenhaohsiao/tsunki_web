@@ -58,6 +58,10 @@
         background-image: url("../images/Hero04.jpg");
     }
     
+    #case-image-1 {
+        background-image: url("../images/cases/casePic1.jpg");
+    }
+    
     @-webkit-keyframes MOVE-BG {
         0% {
             background-position: 50% 80%;
@@ -84,7 +88,9 @@
     
     #cases-main-section div {
         height: 300px;
-        /* width: auto; */
+        background-position: top;
+        background-size: cover;
+        /* width: 200px; */
     }
     
     #spark {
