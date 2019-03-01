@@ -264,3 +264,31 @@
     #contact-address-section ul #contact-icon-email {
         list-style-image: url('../images/icons/envelope-solid.svg');
     }
+    
+    .cases-card-wide.mdl-card {
+        max-width: 330px;
+        margin: 0 0 20px 0;
+    }
+    
+    .cases-card-wide>.mdl-card__title {
+        color: #fff;
+        font-weight: 300;
+        text-shadow: 2px 2px 8px rgb(0, 0, 0);
+        height: 176px;
+    }
+    
+    .cases-card-wide>.mdl-card__title#case-1 {
+        background: url('../images/cases/casePic2.jpg') center / cover;
+    }
+    
+    .cases-card-wide>.mdl-card__title#case-2 {
+        background: url('../images/cases/casePic4.jpg') center / cover;
+    }
+    
+    .cases-card-wide>.mdl-card__title#case-3 {
+        background: url('../images/cases/casePic6.jpg') center / cover;
+    }
+    
+    .cases-card-wide>.mdl-card__menu {
+        color: #fff;
+    }
